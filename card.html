@@ -26,7 +26,31 @@
     <video id="camera-feed" autoplay playsinline muted></video>
 
     <div id="ar-overlay">
-      <!-- AR content will be added here -->
+      <model-viewer
+        id="direction-arrow"
+        src="assets/arrow.glb"
+        alt="Flecha de dirección"
+        camera-orbit="0deg 75deg 9m"
+        disable-zoom
+        auto-rotate
+        shadow-intensity="1"
+        style="--poster-color: transparent"
+      >
+      </model-viewer>
+
+      <!-- POI Logo flotante estilo Pokemon Go -->
+      <model-viewer
+        id="poi-logo"
+        src="assets/daremapp_logo.glb"
+        alt="DareMapp POI"
+        auto-rotate
+        rotation-per-second="15deg"
+        camera-orbit="0deg 80deg 6m"
+        disable-zoom
+        shadow-intensity="1"
+        style="position: absolute; top: 20%; left: 50%; transform: translateX(-50%); width: 200px; height: 200px; --poster-color: transparent"
+      >
+      </model-viewer>
     </div>
 
     <div class="ui-layer">
