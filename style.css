@@ -61,6 +61,12 @@ html {
   perspective: 1000px;
 }
 
+model-viewer#direction-arrow {
+  width: 100%;
+  height: 50%;
+  margin-top: 15%;
+}
+
 .ui-layer {
   position: absolute;
   top: 0;
