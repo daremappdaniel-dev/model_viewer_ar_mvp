@@ -8,15 +8,15 @@ https://modelviewer.dev/
 
 2.Licencia:
 
-©Copyright 2018-2025 Google Inc. Con licencia Apache 2.0.
+MIT, pero se paga para uso comercial.
 
 3.Comunidad:
 
 https://github.com/google/model-viewer
-bastante activa, último cambio hace 5 meses más de 1500 commits
+Bastante activa, última release hace 5 meses.
 
 4.Actualizaciones:
-frecuentes
+Frecuentes
 
 5.Dependencias Angular:
 No tiene
